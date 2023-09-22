@@ -394,6 +394,12 @@ main .sobre{
     border-bottom: 2px solid red;
     border-left: 2px solid red;
 }
+@media(max-width: 992px){
+    .my_service li{
+        width: 390px;
+        height: 100%;
+    }
+}
 /*meu resumo*/
 
 .my_resume{
