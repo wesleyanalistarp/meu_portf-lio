@@ -67,8 +67,8 @@ header .navegacao-primaria li a:hover::after{
     grid-template-columns: 1fr 1fr; 
     justify-content: space-around;
     align-items: center;
-    gap: 60px;
-    padding: 60px;
+    gap: 50px;
+    padding: 40px;
 }
 .section-div div{
     margin-top: 120px;
@@ -93,7 +93,8 @@ header .navegacao-primaria li a:hover::after{
     border-radius: 5px;
 }
 .section-div img{
-    max-width: 100%;
+    max-width: 75%;
+    border-radius: 15px;
 }
 
 .digitando::after{
@@ -271,9 +272,18 @@ main .sobre{
         display: none;
     }
     .section-div{
-        background-image: url(img/Full-HD-Developer-Wallpaper.jpg);
+        background-image: url(img/mobile.jpeg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+    }
+    .section-div div h2{
+        font-family: Poppins;
+        text-align: left;
+        font-weight: 300px;
+        color: #fff;
+    }
+    .mob{
+        display: none;
     }
     header{
         justify-content: space-between;
