@@ -11,36 +11,37 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-    <header>
-        <h1>Wesley <span>Ramon</span></h1>
-        <nav>
-            <ul class="navegacao-primaria">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">Abrout</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#portfolio">Portfólio</a></li>
-                <li><a href="#princing">Pricing</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <i class="fa-solid fa-bars"></i>
-        </nav>
-    </header>
-    <section aria-label="seção curriculo download Ramon" class="section-div">
-        <div class="download">
-            <h2 class="mob">Olá sejam bem vindos!</h2>
-            <h2 class="digitando">Meu nome é Wesley Ramon, sou Desenvolvedor e vou apresentar meu Portfólio, por gentileza desça a página...</h2>
-            <p>"A tecnologia vai reinventar o negócio, mas as <strong>Relações humanas</strong> continuaram a ser a
-                chave para o sucesso"</p>
-                <a href="./assets/curriculo.pdf" download="curriculo">Download CV</a><br><br>
-        </div>
-        </div>
-        <img src="img/header2.jpeg" alt="fundo-para-background">
-    </section>
+     <section id="home">
+            <nav>
+                <header>   
+                    <h1>Wesley <span>Ramon</span></h1>
+                        <ul class="navegacao-primaria">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">Sobre Mim</a></li>
+                            <li><a href="#especialidade">Especialidades</a></li>
+                            <li><a href="#resumo">Meu Resumo</a></li>
+                            <li><a href="#contact">Contato</a></li>
+                        </ul>
+                        <i class="fa-solid fa-bars"></i>
+                </header>
+            </nav>
+        <section aria-label="seção curriculo download Ramon" class="section-div">
+            <div class="download">
+                <h2 class="mob">Olá sejam bem vindos!</h2>
+                <h2 class="digitando">Meu nome é Wesley Ramon, sou Desenvolvedor e vou apresentar meu Portfólio, por gentileza desça a página...</h2>
+                <p>"A tecnologia vai reinventar o negócio, mas as <strong>Relações humanas</strong> continuaram a ser a
+                    chave para o sucesso"</p>
+                    <a href="./assets/curriculo.pdf" download="curriculo">Download CV</a><br><br>
+            </div>
+            </div>
+            <img src="img/header2.jpeg" alt="minha foto">
+        </section>
+  </section>
     <main>
         <article aria-label="seção sobre mim" class="sobre">
             <div class="sobre-titulo">
+                <section id="about">
                 <h1>Sobre mim</h1>
                 <p>Conquistas e Sonhos</p>
                 <div aria-label="seção apenas de ilustração de botões">
@@ -50,7 +51,7 @@
                 </div>
             </div>
             </div>
-            <img src="img/header.jpeg" alt="imagem de uma pessoa ilustrativa">
+            <img src="img/header.jpeg" alt="minha foto">
             <div class="sobre-conteudo">
                 <div class="sobre-texto">
                     <h1>Conquistas</h1>
@@ -70,9 +71,11 @@
                 </div>
             </div>
         </article>
+    </section>
     </main>
     <section class="services">
         <div class="sobre-titulo">
+            <section id="especialidade">
             <h1>Especialidades</h1>
             <p>Visão Geral</p>
             <div aria-label="seção apenas de ilustração de botões">
@@ -116,8 +119,10 @@
             </ul>
         </div>
     </section>
+    </section>
     <div class="my_resume">
         <div class="sobre-titulo">
+            <section id="resumo">
             <h1>Meu Resumo</h1>
             <p>Experiência e Formação</p>
             <div aria-label="seção apenas de ilustração de botões">
@@ -175,16 +180,11 @@
             </div>
         </div>
     </div>
-    <section>
+</section>
+    <section id="contact">
         <footer>
             <div class="my_resume">
-                <div class="sobre-titulo">
-                    
-                   
-                    <div aria-label="seção apenas de ilustração de botões">
-                       
-                    </div>
-                </div>
+                <p class="rodape">Com os Links abaixo poderá me chamar pelo Whatsapp, acessar meu Linkedin<br>e tera cesso aos meus projetos no GitHub</p>
                 <nav aria-label="navegação dos links sociais">
                     <ul class="footer_social">
                         <li class="g"><a href="https://github.com/wesleyanalistarp" target="_blank"><abbr title="GitHub"><i class="fa-brands fa-github"></abbr></a></i></li>

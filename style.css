@@ -273,8 +273,7 @@ main .sobre{
     }
     .section-div{
         background-image: url(img/mobile.jpeg);
-        background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
     }
     .section-div div h2{
         font-family: Poppins;
@@ -414,6 +413,11 @@ main .sobre{
 
 .my_resume{
     color: #fff;
+}
+ .rodape{
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Poppins'
 }
 .resume_generica{
     padding: 30px;
