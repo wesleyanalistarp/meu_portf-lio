@@ -326,8 +326,8 @@ main .sobre{
 /*efeito carrosel*/
 
 .galery {
-    width: 640px;
-    height:400;
+    width: 438px;
+    height:440px;
     overflow: hidden;
 }
 .galery .fotos{
