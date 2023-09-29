@@ -323,7 +323,63 @@ main .sobre{
     }
 }
 
+/*efeito carrosel*/
+
+.galery {
+    width: 640px;
+    height:400;
+    overflow: hidden;
+}
+.galery .fotos{
+    width: 500%;
+    animation-name:animação;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.galery .fotos img{
+    width: 19.9%;
+}
+@keyframes animação {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+    50% { margin-left: -200%; }
+    70% { margin-left: -200%; }
+    75% { margin-left: -300%; }
+    95% { margin-left: -300%; }
+    100% { margin-left: -400%; }
+}
+/* responsividade da galeria*/
+
+@media(max-width: 992px){
+    .sobre-conteudo .sobre-texto h1{
+        font-family: Poppins;
+        padding-left: 130px;
+        font-size: 25px;
+        text-align: justify;
+        grid-column: 1/-1;
+    } 
+    .sobre-conteudo .sobre-texto p{
+        font-family: Poppins;
+        padding-left: 130px;
+        font-size: 1rem;
+        text-align: justify;
+        margin-right: 130px;
+       
+    } 
+
+    .sobre-info p{
+        font-family: Poppins;
+        padding-left: 130px;
+        
+    }
+}
+
+
+
 /*SESSÃO SERVICE*/
+
 .services{
     margin-top: -30px;
     padding: 60px;
